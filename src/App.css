@@ -1,0 +1,95 @@
+:root {
+/* CSS HEX */
+--rich-black-fogra-29: #0c1821ff;
+--charcoal: #324a5fff;
+--languid-lavender: #ccc9dcff;
+--vincit: #f04e30;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.App-header {
+  width: 100vw;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--rich-black-fogra-29);
+}
+
+.info-card {
+  color: black;
+  margin: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+  border-style: none;
+  border-radius: 3px;
+  background-color: var(--languid-lavender);
+  box-shadow: 1px 1px 1px 1px var(--rich-black-fogra-29);
+}
+
+.info-text {
+  font-size:large;
+  font-weight: bolder;
+  color: var(--rich-black-fogra-29);
+}
+
+.info-header {
+  width: 100%;
+  color: white;
+  background-color: var(--charcoal);
+}
+
+.date-input {
+  cursor: pointer;
+  font-size: large;
+}
+
+.date-button {
+  padding: 12px;
+  margin-top: 8px;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--vincit);
+  border-radius: 5px;
+  color: white;
+}
+
+.date-button:hover {
+  box-shadow: 1px 1px 1px 1px var(--rich-black-fogra-29);
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 8px;
+  height: 30px;
+  width: 100vw;
+  background-color: var(--charcoal);
+  font-style: italic;
+}
+
+.footer a {
+  color: white;
+}
+
+
+
