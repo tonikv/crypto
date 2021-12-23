@@ -24,7 +24,7 @@ body {
 
 .App-header {
   width: 100vw;
-  font-size: 3.5rem;
+  font-size: 2.4rem;
   font-weight: 700;
   color: var(--rich-black-fogra-29);
 }
@@ -36,7 +36,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 400px;
+  width: 360px;
   border-style: none;
   border-radius: 3px;
   background-color: var(--languid-lavender);
@@ -61,14 +61,14 @@ body {
 }
 
 .date-button {
-  padding: 12px;
+  padding: 6px;
   margin-top: 8px;
   border: none;
   font-size: large;
   cursor: pointer;
   text-align: center;
   background-color: var(--vincit);
-  border-radius: 5px;
+  border-radius: 2px;
   color: white;
 }
 
@@ -79,7 +79,7 @@ body {
 .footer {
   color: white;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 30px;
   padding-top: 8px;
   height: 30px;
   width: 100vw;
