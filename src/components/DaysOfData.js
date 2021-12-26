@@ -1,4 +1,4 @@
-// UI element to so data length in days 
+// UI element to show data length in days 
 
 const DaysOfData = ( {days} ) => {
     return (

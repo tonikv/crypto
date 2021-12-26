@@ -1,5 +1,5 @@
 /* Process the data to get the prices for the day (closest to 00:00 UTC time). Return them as object with following keys
-    This works with different data granularity's that the API is using. So we can always pass the data here to get prices closest to 00:00 UTC time.
+    This works with different data granularity's that the API is using. 
     "date": full date string format
     "price": price closest to 00:00 UTC
 */

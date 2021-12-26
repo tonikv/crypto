@@ -1,9 +1,8 @@
 /*
-    Component to pass the data in to and render it 
-    First check that is data available. After that we process data to answer requested properties of Bitcoin
-
+    Component to pass the data in to and render it accordingly
+    First check that data is available. 
+    After that we process data to answer requested properties of Bitcoin
  */
-
 
 import DownwardTrend from './DownwardTrend';
 import utils from '../utils';
