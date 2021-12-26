@@ -10,11 +10,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 
 
 .App {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,15 +24,14 @@ body {
 }
 
 .App-header {
-  width: 100vw;
   font-size: 2.2rem;
   font-weight: 700;
-  color: var(--rich-black-fogra-29);
+  color: white;
 }
 
 .info-card {
   color: black;
-  margin: 10px 0 0 10px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,8 +39,7 @@ body {
   width: 340px;
   border-style: none;
   border-radius: 3px;
-  background-color: var(--languid-lavender);
-  box-shadow: 1px 1px 1px 1px var(--rich-black-fogra-29);
+  background-color: white;
 }
 
 .info-text {
@@ -52,7 +51,11 @@ body {
 .info-header {
   width: 100%;
   color: white;
-  background-color: var(--charcoal);
+  background-color: black;
+}
+
+.date-form-container {
+  color: white;
 }
 
 .date-input {
@@ -69,24 +72,25 @@ body {
   text-align: center;
   background-color: var(--vincit);
   border-radius: 2px;
-  color: white;
+  color: black;
 }
 
 .date-button:hover {
-  box-shadow: 1px 1px 1px 1px var(--rich-black-fogra-29);
+  text-decoration: underline;
+  color: white;
 }
 
 .footer {
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 30px;
   padding-top: 8px;
   height: 30px;
   width: 100vw;
-  background-color: var(--charcoal);
+  background-color: white;
   font-style: italic;
 }
 
 .footer a {
-  color: white;
+  color: black;
 }
